@@ -25,7 +25,7 @@ setup(
             'README.md'
         ]
     },
-    version='0.0.1',
+    version='0.0.2',
     author='TylerTemp',
     author_email='tylertempdev@gmail.com',
     url='https://github.com/TylerTemp/xunleivip',
@@ -37,7 +37,8 @@ setup(
     install_requires=[
         'html5lib',
         'requests',
-        'beautifulsoup4'
+        'beautifulsoup4',
+        'clipboard'
     ],
     entry_points={
         'console_scripts': [
